@@ -11,14 +11,6 @@ This repository contains a full reproduction of the paper ["iCaRL: Incremental C
 *   **Architecture**: Implementation based on the PyCIL framework (Python Class-Incremental Learning) using a ResNet32 backbone.
 *   **Optimization**: Training is performed on a local NVIDIA GPU with specific CUDA device configurations.
 
-## Technical Troubleshooting & AI Collaboration
-
-The development and environment setup involved significant technical problem-solving, documented in the `/AI_Documentation` folder. Key issues addressed include:
-
-*   **Runtime Optimization**: Resolving OpenMP and `libiomp5md.dll` initialization conflicts.
-*   **Hardware Interfacing**: Correcting GPU Device ID assertions for single-GPU environments.
-*   **Hyperparameter Tuning**: Aligning JSON configuration files with the original paper’s benchmarks (Seed 1993, Memory Size 2000).
-
 ## Execution Guide
 
 1.  Install the required environment:
