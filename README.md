@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a full reproduction of the paper "iCaRL: Incremental Classifier and Representation Learning" (Rebuffi et al., CVPR 2017). The focus of this implementation is to evaluate the model's ability to handle Class-Incremental Learning (CIL) and mitigate the effects of Catastrophic Forgetting.
+This repository contains a full reproduction of the paper ["iCaRL: Incremental Classifier and Representation Learning" (Rebuffi et al., CVPR 2017)](https://arxiv.org/pdf/1611.07725). The focus of this implementation is to evaluate the model's ability to handle Class-Incremental Learning (CIL) and mitigate the effects of Catastrophic Forgetting.
 
 ## Technical Methodology
 
